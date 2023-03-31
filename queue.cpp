@@ -1,3 +1,6 @@
+           
+                 //   display ma queue chahi array ko reverse xa   //
+
 #include <iostream>
 using namespace std;
 
@@ -67,12 +70,12 @@ public:
     {
         if (isEmpty())
         {
-            cout << "Queue is empty"<<endl;
-            cout<<rear<<front;
+            cout << "Queue is empty" << endl;
+            cout << rear << front;
         }
         else
         {
-            cout<<rear<<front;
+            cout << rear << front;
             cout << "rear";
             for (int i = rear; i >= front; i--)
             {
@@ -122,3 +125,4 @@ int main()
     }
     return 0;
 }
+                              //     Thank you     //
