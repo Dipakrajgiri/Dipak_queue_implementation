@@ -71,11 +71,9 @@ public:
         if (isEmpty())
         {
             cout << "Queue is empty" << endl;
-            cout << rear << front;
         }
         else
         {
-            cout << rear << front;
             cout << "rear";
             for (int i = rear; i >= front; i--)
             {
